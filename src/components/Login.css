@@ -1,0 +1,9 @@
+.login{
+    height: 100%;
+    background: rgb(9,18,196);
+    background: linear-gradient(15deg, rgba(9,18,196,1) 0%, rgba(53,114,239,1) 30%, rgba(58,190,249,1) 60%, rgba(91,202,251,1) 72%, rgba(132,217,253,1) 87%, rgba(167,230,255,1) 100%);
+    min-height: 100vh;
+}
+form{
+    width: 350px;
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+.card {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: row;
+    box-shadow: rgba(68, 112, 255, 0.39) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+.card img {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-actions {
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-success {
+    color: green;
+}
+.text-danger {
+    color: red;
+}
+  

@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #3abef9;
+    --secondary-color: #0b18c6;
+    --accent-color: #ff6b6b;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  nav {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    padding: 10px;
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--accent-color);
+  }
+  
+  .active {
+    color: var(--accent-color);
+    font-weight: bold;
+  }
+  
+  .outlet {
+    min-height: calc(100vh - 60px);
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      margin-top: 10px;
+    }
+  
+    nav li {
+      padding: 5px;
+    }
+  }
